@@ -121,7 +121,6 @@ public class Application {
             default:
                 throw new IllegalArgumentException("Error: Entered Invalid Option");
         }
-
         logger.log(Level.INFO, "Sum of Interior Angles is " + sum);
     }
 }
